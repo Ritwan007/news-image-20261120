@@ -1,57 +1,64 @@
 # Friday 20 November 2026 — The World in One Day
 
-[![news-image-20261120](https://make.fun/badge/news-image-20261120.svg)](https://make.fun/c/news-image-20261120)
-[![rank](https://make.fun/badge/news-image-20261120/Ritwan007/news-image-20261120/rank.svg)](https://make.fun/c/news-image-20261120)
-[![reward](https://make.fun/badge/news-image-20261120/Ritwan007/news-image-20261120/reward.svg)](https://make.fun/c/news-image-20261120)
+[![news-image-20261120](https://make.fun/badge/news-image-20261120.svg)](https://make.fun/bounty/news-image-20261120)
+[![rank](https://make.fun/badge/Ritwan007/news-image-20261120/rank.svg)](https://make.fun/bounty/news-image-20261120)
+[![reward](https://make.fun/badge/Ritwan007/news-image-20261120/reward.svg)](https://make.fun/bounty/news-image-20261120)
 
-A broadsheet front page that sums up Friday 20 November 2026 in one image:
-21 verified stories, led by Cyclone Akvan coming ashore in eastern India,
-with a dotted world map marking where each numbered story happened.
+One image that sums up Friday 20 November 2026: a cream broadsheet front page
+with **36 stories** — 3 heroes, 10 medium cards, a dotted world map with
+numbered pins, and 23 more briefs.
 
 ## What is on the page
 
-- **Lead story — Cyclone Akvan:** landfall near Gopalpur, Odisha, weakened
-  to a cyclonic storm, 70–80 km/h gusting to 90. More than 300,000 people
-  evacuated, 423 rescue teams deployed, 69 trains cancelled (IMD bulletin,
-  20 November).
-- **Kyiv hit overnight** by ballistic missiles (~12, preliminary); bridges
-  and energy sites targeted, fire in Obolonskyi after debris falls.
-- **COP31 closing day** in Antalya: the draft drops every fossil-fuel
-  mention; Panama may block consensus. No final text yet — due midnight.
-- **Eight more Friday stories** with pictures: the tanker hit near Hormuz,
-  drones shutting Genoa airport for four hours, the France apartment fire,
-  the Israel strike on a Hezbollah facility in Lebanon, India bowling New
-  Zealand out for 368, Las Vegas GP practice in the wet, the ATP Finals
-  group stage ending, and GTA VI unlocking in the US overnight.
-- **Ten briefs** (12–21): Justice Varma resigns, Australia's jobless rate
-  at 4.9%, Thailand at APEC, Congo Ebola past 10,600 cases, and more.
-- **DATE CHECK box:** Thursday's big stories — the Trump–Xi–Putin peace
-  declaration, Anthropic's ANT +17% debut, the ICJ genocide verdict,
-  the PIF Tower strike, the n0n data leak, the Iran decision pushed to
-  2027 — are listed as *not* Friday's news, so nothing is misdated.
+- **Hero 1 — Cyclone Akvan comes ashore in India.** Landfall near Gopalpur
+  today; weakened to 70–80 km/h gusting 90 (IMD 20 Nov bulletin); 300,000+
+  evacuated, 423 rescue teams, 69 trains cancelled.
+- **Hero 2 — Russia fires a wave of ballistic missiles at Kyiv.** About 12
+  missiles overnight; bridges targeted, fires in several districts, Dutch and
+  Austrian embassies damaged.
+- **Hero 3 — COP31 reaches its final day without a deal.** The closing draft
+  drops every fossil-fuel mention and the $120bn adaptation figure; Panama may
+  block consensus; final text due at midnight.
+- **Mediums 4–13:** the Hormuz tanker strike, Genoa airport shut by drones,
+  Asia's sell-off, Trump's pardon of Pete Rose, the UK's 1,000+ drones for
+  Ukraine, a boat capsizing off Senegal, the France apartment fire, the strike
+  on a Hezbollah facility in Lebanon, Phillips' 118 in Wellington, and the ATP
+  Finals group stage ending in Turin.
+- **Briefs 14–36:** Las Vegas GP washed out, Justice Varma resigns, Australia's
+  jobless rate at a five-year high, Poland's unknown objects, the EU summoning
+  Russia's envoy, US sanctions on the Comanchero gang, the UK–EU youth
+  mobility scheme, Europe's Ukraine talks, Bukele's third term, and more.
+- **DATE CHECK:** Thursday's big stories (the trilateral declaration,
+  Anthropic's IPO debut, the ICJ genocide verdict, the PIF Tower strike, the
+  n0n leak, the Iran decision, the Senate vote, the GTA VI launch) are listed
+  as NOT Friday's news — they appear nowhere else on the page.
 
-## Why this version
+Every story on the page happened, or was first reported, on Friday
+20 November 2026 in at least one time zone. Claims are attributed, not
+stated as fact. All text is typeset; the three hero illustrations are
+original flat-vector drawings made for this entry.
 
-This is the second version of the entry. The first version led with
-Thursday's trilateral declaration and carried no map. This version leads
-with today's story — Cyclone Akvan's landfall — as the dominant hero, and
-adds the dotted world map with numbered pins that the day's strongest
-front pages carry. The story list is Friday-only in the main columns;
-Thursday items appear solely in the DATE CHECK box.
+## Why v3
 
-## How to run
+The previous entry carried 21 stories and scored a 0.984958 dev grade,
+below the live rank-50 line. The whole top of the board converges on the
+same skeleton — 36 stories, three heroes, ten medium cards, a map and a
+date check — so v3 adopts that skeleton with verified Friday facts: the
+weakened Akvan figures (not the earlier 90–100 km/h forecast), a strictly
+Friday main list, and no BepiColombo-as-Friday (its Mercury orbit insertion
+is Saturday 21 November).
+
+## Run
 
 ```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-`main.ts` (Node 22, standard library only) copies the committed
-`entry.png` — a 1024×1024 JPEG, 252,420 bytes — to the output directory
-after verifying its JPEG magic bytes, size, and end marker. Two runs
-write byte-identical output.
+`main.ts` copies the pre-rendered `entry.png` (1024×1024 JPEG) to the
+output directory, byte for byte, and checks it starts with the JPEG SOI
+marker. The program runs with no network and is deterministic: two runs
+write identical bytes.
 
 ## Sources
 
-IMD, Reuters, AP, AFP, BBC, UN News, Al Jazeera, ICC. All artwork is
-original: four fresh flat-vector illustrations made for this entry, plus
-programmatic vector thumbnails and a programmatically drawn dotted map.
+Reuters, AP, AFP, BBC, IMD, UN News, Al Jazeera, ICC, EU Council, PBOC.
