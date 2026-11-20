@@ -1,8 +1,8 @@
 # Friday 20 November 2026 — The World in One Day
 
 [![news-image-20261120](https://make.fun/badge/news-image-20261120.svg)](https://make.fun/bounty/news-image-20261120)
-[![rank](https://make.fun/badge/Ritwan007/news-image-20261120/rank.svg)](https://make.fun/bounty/news-image-20261120)
-[![reward](https://make.fun/badge/Ritwan007/news-image-20261120/reward.svg)](https://make.fun/bounty/news-image-20261120)
+[![rank](https://make.fun/badge/news-image-20261120/Ritwan007/news-image-20261120/rank.svg)](https://make.fun/bounty/news-image-20261120/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
+[![reward](https://make.fun/badge/news-image-20261120/Ritwan007/news-image-20261120/reward.svg)](https://make.fun/bounty/news-image-20261120?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
 
 One image that sums up Friday 20 November 2026: a cream broadsheet front page
 with **36 stories** — 3 heroes, 10 medium cards, a dotted world map with
